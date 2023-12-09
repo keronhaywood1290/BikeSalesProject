@@ -6,6 +6,7 @@ import plotly.express
 
 
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.CYBORG])
+server = app.server
 sidebar = dbc.Nav(
             [
                 dbc.NavLink(
